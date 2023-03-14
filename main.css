@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Questa Grande';
+  src: url(./fonts/QuestaGrande-Bold.otf);
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url(./fonts/Fontspring-DEMO-proximanova-regularit.otf);
+}
+
+:root {
+  --primary-color: rgba(1, 50, 32, 1);
+}
+
+body {
+  margin: 0;
+  font-family: 'Proxima Nova';
+}
+
+.fixed-hint {
+  position: fixed;
+  top: 30px;
+  left: 20%;
+  padding: 12px 28px;
+  font-size: 30px;
+  font-weight: 700;
+  opacity: 0;
+  color: lavender;
+  background-color: rgba(1, 50, 32, 0.3);
+  animation: 6s hint linear;
+}
+
+@keyframes hint {
+  20% {
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 1;
+    color: rgba(255, 255, 0, 0.8);
+  }
+
+  60% {
+    opacity: 1;
+    color: lavender;
+  }
+
+  90% {
+    opacity: 0;
+  }
+}
