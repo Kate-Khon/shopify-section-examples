@@ -34,7 +34,7 @@ let bulletStartPosition = 0;
             }, 1000);
           }
 
-          baCircleMobile.innerHTML = 'Circle Title 1 Caption 1';
+          // baCircleMobile.innerHTML = 'Circle Title 1 Caption 1';
           baInfo1.style.opacity = '1';
           baInfo2.style.opacity = '0';
           baInfo3.style.opacity = '0';
@@ -44,17 +44,17 @@ let bulletStartPosition = 0;
           if (baCircle3.style.animation === '1s ease 0s 1 normal both running increaseSizeTo1') {
             baCircle3.style.animation = '1s increaseSizeFrom1 0s 1 normal both';
           } else if (baCircle3.style.animation === '') {
-            baCircle3.style.animation = '1s increaseSizeTo2 0s 1 normal both';          
+            baCircle3.style.animation = '1s increaseSizeTo2 0s 1 normal both';
           }
 
-          baCircleMobile.innerHTML = 'Circle Title 2 Caption 2';
+          // baCircleMobile.innerHTML = 'Circle Title 2 Caption 2';
           baInfo1.style.opacity = '0';
           baInfo2.style.opacity = '1';
           baInfo3.style.opacity = '0';
 
         } else if (currentPosition >= 2100) {
           baCircle3.style.animation = '1s increaseSizeTo1 0s 1 normal both';
-          baCircleMobile.innerHTML = 'Circle Title 3 Caption 3';
+          // baCircleMobile.innerHTML = 'Circle Title 3 Caption 3';
           baInfo1.style.opacity = '0';
           baInfo2.style.opacity = '0';
           baInfo3.style.opacity = '1';
@@ -91,7 +91,7 @@ let bulletStartPosition = 0;
           if (baCircle3.style.animation === '1s ease 0s 1 normal both running increaseSizeTo1') {
             baCircle3.style.animation = '1s increaseSizeFrom1 0s 1 normal both';
           } else if (baCircle3.style.animation === '') {
-            baCircle3.style.animation = '1s increaseSizeTo2 0s 1 normal both';          
+            baCircle3.style.animation = '1s increaseSizeTo2 0s 1 normal both';
           }
 
           baCircleCaption.innerHTML = 'Caption 2';
